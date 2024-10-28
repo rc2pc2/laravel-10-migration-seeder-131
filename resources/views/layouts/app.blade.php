@@ -11,7 +11,7 @@
 </head>
 <body>
     {{-- includi header --}}
-    @include("partials.header")
+    {{-- @include("partials.header") --}}
 
     {{-- inserisci contenuti da chi estende --}}
     <main>
@@ -19,7 +19,7 @@
     </main>
 
     {{-- includi footer --}}
-    @include("partials.footer")
+    {{-- @include("partials.footer") --}}
 
     @vite("resources/js/app.js")
     @yield("additional-scripts")
